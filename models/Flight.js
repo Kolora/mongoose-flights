@@ -12,7 +12,7 @@ const destinationSchema = new Schema({
   },
 });
 
-const flightsSchema = new Schema({
+const flightSchema = new Schema({
   airline: {
     type: String,
     enum: ["American", "Southwest", "United"],
@@ -37,6 +37,6 @@ const flightsSchema = new Schema({
   },
 });
 
-const Flights = mongoose.model("flights", flightsSchema);
+const Flight = mongoose.model("flights", flightSchema);
 
-module.exports = Flights;
+module.exports = Flight;

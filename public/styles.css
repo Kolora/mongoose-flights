@@ -88,6 +88,8 @@ button:focus {
 
 .btn-2 {
   margin-top: 20px;
+  background-color: palevioletred;
+  border-color: red;
 }
 
 input[type="text"] {
